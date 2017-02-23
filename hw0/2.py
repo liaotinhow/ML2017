@@ -1,4 +1,4 @@
-import Image
+from PIL import Image
 import sys
 image_origin = Image.open(sys.argv[1])
 image_compare = Image.open(sys.argv[2])
