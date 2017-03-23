@@ -74,7 +74,3 @@ with open(sys.argv[3], 'w') as csvfile:
 		id_x = 'id_' + str(x)
 		writer.writerow({'id': id_x, 'value': int(round(val[0]))})
 
-print (w)
-with open("Output.txt", "w") as text_file:
-	for x in range(8):
-		text_file.write(w[x])
