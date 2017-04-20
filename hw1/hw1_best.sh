@@ -1,1 +1,2 @@
-python3.6 ml_best.py $1 $2 $3
+python3.6 model_best.py $1 $2 $3
+
